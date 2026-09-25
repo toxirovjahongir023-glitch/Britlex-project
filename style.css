@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(38, 50, 56, 1);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER & NAVBAR */
+.navbar {
+    padding-top: 71px;
+    padding-bottom: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar button {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    border: 2px solid rgba(38, 50, 56, 1);
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 1);
+    width: 220px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+/* HERO SECTION 1 */
+#section {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+    margin-top: -60px;
+}
+
+.hero1 {
+    margin-top: -115px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.hero1 h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+
+.hero1 p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 61px;
+}
+
+.hero1 button {
+    background-color: rgba(38, 50, 56, 1);
+    font-size: 36px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    width: 438px;
+    align-items: center;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.hero2 {
+    margin-bottom: 150px;
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+    margin-bottom: 92px;
+    margin-top: 103px;
+}
+
+.cards {
+    display: flex;
+    align-items: stretch; 
+    gap: 18px;
+}
+
+
+.card {
+    width: 435px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+    margin-bottom: 33px;
+}
+
+.card button {
+    width: 230px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(38, 50, 56, 1);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: auto; 
+}
+
+/* O'ng tomondagi block */
+.cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    width: 888px;
+}
+
+
+.card1 {
+    width: 435px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card1 h2 {
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+    margin-bottom: 5px;
+}
+
+.card1 p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+    margin-bottom: 33px;
+}
+
+.card1 button {
+    width: 230px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(38, 50, 56, 1);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: auto; 
+}
+
+
+.cards2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 1);
+    width: 888px;
+    padding: 20px;
+}
+
+.cards2 div {
+    width: 100%;
+}
+
+.card2 {
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 h2 {
+    margin-top: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+    margin-bottom: 33px;
+}
+
+.card2 button {
+    width: 230px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(38, 50, 56, 1);
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: auto;
+}
+
+.info {
+    align-items: center;
+    width:600px;
+}
+
+.info h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+}
+
+.info p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 59px;
+    letter-spacing: 1px;
+}
+
+.info div div h3 {
+    color: rgba(42, 50, 70, 1);
+    font-size:  48px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.info div div p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article {
+    margin-top: 252px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cost {
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+}
+
+.cost h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(38, 50, 56, 1);
+    margin-bottom: 19px;
+}
+
+.cost p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.back{
+   background-image: url("./img/Rectangle\ 21.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   padding: 10px;
+   width: 240px;
+}
+
+.study {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    margin-top: 229px;
+    margin-bottom: 83px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.contact2 {
+    align-items: center;
+    width: 800px;
+}
+
+.email input {
+    padding: 20px;
+    justify-content: start;
+    width: 450px;
+    border: 1px solid rgba(143, 149, 165, 1);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.email button {
+    padding: 20px;
+    width: 264px;
+    background-color: rgba(38, 50, 56, 1);
+    border-radius: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 111px; 
+}
+
+.email {
+    display: flex;
+    gap: 12px;
+}
+
+.contact2 h1 {
+    margin-bottom: 37px;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+}
+
+.contact p {
+    color: rgba(143, 149, 165, 1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 78px;
+}
+
+#section4 {
+    margin-top: 261px;
+}
+
+.hr {
+  color: rgba(196, 196, 196, 1);  
+  width: 1338px;
+  margin-bottom: 55px;
+  margin-top: 220px;
+}
+
+.final {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 55px;
+}
